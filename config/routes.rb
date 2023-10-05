@@ -12,4 +12,5 @@ Rails.application.routes.draw do
   post("/add_comment", controller: "photos", action: "comment")
 
   get("/users/:username/feed", controller: "feed", action: "feed")
+  get("/users/:username/discover", controller: "feed", action: "discover")
 end

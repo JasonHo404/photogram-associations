@@ -1,6 +1,15 @@
 <h1><%= @the_user.username %></h1>
 
+<hr>
 <dl>
+  <dt>
+  <a href="/users/<%=@the_user.username%>/feed">Feed</a>
+  </dt>
+
+  <dt>
+  <a href="/users/<%=@the_user.username%>/discover">Discover</a>
+  </dt>
+
   <dt>
     ID
   </dt>
